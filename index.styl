@@ -1,0 +1,36 @@
+.loading-overlay
+  top: 0
+  left: 0
+  position: fixed
+  height: 100%
+  width: 100%
+  z-index: 9999
+  display: block
+  background: rgba(115, 115, 115, 0.8)
+
+  .spinner
+    height: 90px
+    width: 90px
+    position: fixed
+    left: 50%
+    top: 50%
+    margin-left: -45px
+    margin-top: -45px
+    -webkit-animation: rotate .6s infinite linear
+    -moz-animation: rotate .6s infinite linear
+    -o-animation: rotate .6s infinite linear
+    animation: rotate .6s infinite linear
+    border-left: 6px solid rgba(0, 0, 0, .3)
+    border-right: 6px solid rgba(0, 0, 0, .3)
+    border-bottom: 6px solid rgba(0, 0, 0, .3)
+    border-top: 6px solid rgba(0, 0, 0, .9)
+    border-radius: 100%
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(359deg)
+  }
+}
