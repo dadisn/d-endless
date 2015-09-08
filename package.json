@@ -1,6 +1,6 @@
 {
   "name": "d-endless",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Infinite scrolling component for DerbyJS using filters",
   "main": "index.js",
   "scripts": {
